@@ -30,7 +30,7 @@ You can download Python [here](https://www.python.org/downloads/)
 ### Clone this repo
 Then clone this repo to your system by typing in terminal 
 ```
-git clone https://github.com/Skiboard17/Costco-Sameday-Delievery-Slot-Finder.git
+git clone https://github.com/zzhou02/Costco-Sameday-Delievery-Slot-Finder.git
 ```
 After sucessfully cloning, fill in necessary information in costco.py
 ### Selenium
