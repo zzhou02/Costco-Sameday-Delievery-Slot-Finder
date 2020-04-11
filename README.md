@@ -3,6 +3,7 @@
 - [Disclaimer](#Disclaimer)
 - [Compatibility](#Compatibility)
 - [Usage](#Usage)
+- [Tips](#Tips)
 - [How this works](#How_this_works)
 
 # Costco-Sameday-Delievery-Slot-Finder
@@ -46,7 +47,7 @@ When a delivery slot is found, a beep will last for 5 seconds to notify you. So 
 Act quickly after the slot is found since the delivery slot could become unavailable in any minute. 
 
 ## Tips
-The program will exit if you don't finish logging in within two minutes.
+The program will exit if you haven't finished logging in within two minutes.
 You can minimize the browser and let it run on background. 
 Personally I would suggest you to run the program in the afternoon around 3 or 4 p.m. which is likely when a lot of delivery slot is released. 
 
