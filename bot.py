@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import winsound
-import random
 import time
 
 
@@ -11,6 +10,7 @@ class Bot:
     def __init__(self, url):
         self.driver = webdriver.Chrome()
         self.url = url
+        self.driver.maximize_window()
         self.driver.get(url)
 
     def wait(self, element_xpath):
@@ -19,12 +19,6 @@ class Bot:
 
     def base(self):
         self.driver.get(self.url)
-
-    def button(self, url_xpath):
-        self.driver.find_element_by_xpath(url_xpath).click()
-
-    def input(self, input_xpath, content):
-        self.driver.find_element_by_xpath(input_xpath).send_keys(content)
 
     def makeSound(self):
         winsound.Beep(500, 5000)
