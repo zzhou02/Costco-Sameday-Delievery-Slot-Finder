@@ -44,7 +44,11 @@ python costco.py
 After the program started running, enter zip code and log in as usual (Your information is safe). 
 When a delivery slot is found, a beep will last for 5 seconds to notify you. So be sure to turn up volume.
 Act quickly after the slot is found since the delivery slot could become unavailable in any minute. 
+
+## Tips
+The program will exit if you don't finish logging in within two minutes.
 You can minimize the browser and let it run on background. 
+Personally I would suggest you to run the program in the afternoon around 3 or 4 p.m. which is likely when a lot of delivery slot is released. 
 
 ## How this works
 With the help of selenium library, this program automatically and constantly refreshes the checkout page every 30 seconds until it finds a delivery slot. This delivery slot is not presevered for you unless you quickly checkout and secure the delivery slot. 

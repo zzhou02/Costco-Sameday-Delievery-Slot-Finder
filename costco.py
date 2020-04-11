@@ -1,4 +1,5 @@
 from bot import Bot
+import sys
 import winsound
 import time
 
@@ -26,5 +27,8 @@ def main():
 
 robot = Bot("https://sameday.costco.com/store/checkout_v3")
 # check the user has logged in
-robot.wait(after_login_delivery_time_xpath)
+try:
+    robot.wait(after_login_delivery_time_xpath)
+except:
+    sys.exit()
 main()
