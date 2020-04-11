@@ -4,14 +4,18 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import winsound
 import time
+import sys
 
 
 class Bot:
     def __init__(self, url):
-        self.driver = webdriver.Chrome()
-        self.url = url
-        self.driver.maximize_window()
-        self.driver.get(url)
+        try:
+            self.driver = webdriver.Chrome()
+            self.url = url
+            self.driver.maximize_window()
+            self.driver.get(url)
+        except:
+            sys.exit()
 
     def wait(self, element_xpath):
         wait = WebDriverWait(self.driver, 120).until(
