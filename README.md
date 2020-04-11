@@ -22,8 +22,6 @@ As of right now, it only supports Chrome browser. Support for Firefox will be up
 First and foremost, have your costco sameday delivery cart ready to go. 
 Important: this program only works for the [sameday delivery](https://sameday.costco.com/store/costco/storefront). This service should be under "Food, Household, Pet" department. Please check we are talking about the same service.
 This program requires Chrome, Python, chromedriver, selenium and file in this repo to run. If any of these are installed, you may skip that part. 
-### Chrome
-You can download Chrome [here](https://www.google.com/chrome/)
 ### Chromedriver
 First check your chrome version and download the [chromedriver](https://chromedriver.chromium.org/downloads) for your system. 
 ### Python 
@@ -33,7 +31,6 @@ Then clone this repo to your system by typing in terminal
 ```
 git clone https://github.com/zzhou02/Costco-Sameday-Delievery-Slot-Finder.git
 ```
-After sucessfully cloning, fill in necessary information in costco.py
 ### Selenium
 Then add selenium dependency to your program by typing 
 ```
@@ -44,7 +41,10 @@ Run the costco.py by typing in the terminal that is at the same folder as the py
 ```
 python costco.py
 ```
-That's it, the program should be up and running. You can minimize it and let it run on background. When a delivery slot is found, a beep will last for around 5 seconds to notify you. Be sure to act quickly since the delivery slot could be gone any minute. 
+After the program started running, enter zip code and log in as usual (Your information is safe). 
+When a delivery slot is found, a beep will last for 5 seconds to notify you. So be sure to turn up volume.
+Act quickly after the slot is found since the delivery slot could become unavailable in any minute. 
+You can minimize the browser and let it run on background. 
 
 ## How this works
-With the help of selenium library, this program automatically enters zip code and login for you. Then it constantly refresh the checkout page every 30 seconds until it finds a delivery slot. This delivery slot is not presevered for you unless you quickly checkout and secure the delivery slot. 
+With the help of selenium library, this program automatically and constantly refreshes the checkout page every 30 seconds until it finds a delivery slot. This delivery slot is not presevered for you unless you quickly checkout and secure the delivery slot. 
