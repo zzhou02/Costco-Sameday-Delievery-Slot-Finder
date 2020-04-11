@@ -4,7 +4,7 @@
 - [Compatibility](#Compatibility)
 - [Usage](#Usage)
 - [Tips](#Tips)
-- [How this works](#How_this_works)
+- [How this works](#How-this-works)
 
 # Costco-Sameday-Delievery-Slot-Finder
 A tool that finds available delivery slots for Costco Sameday Delivery in the food department (powered by instacart)
