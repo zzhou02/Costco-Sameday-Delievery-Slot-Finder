@@ -14,7 +14,7 @@ class Bot:
         self.driver.get(url)
 
     def wait(self, element_xpath):
-        wait = WebDriverWait(self.driver, 20).until(
+        wait = WebDriverWait(self.driver, 120).until(
             EC.presence_of_element_located((By.XPATH, element_xpath)))
 
     def base(self):
@@ -28,9 +28,6 @@ class Bot:
 
     def makeSound(self):
         winsound.Beep(500, 5000)
-
-    def findMultiple(self, xpath):
-        return self.driver.find_elements_by_xpath(xpath)
 
     def findSingle(self, xpath):
         return self.driver.find_element_by_xpath(xpath)
