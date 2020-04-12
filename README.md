@@ -37,9 +37,9 @@ Act quickly after the slot is found since the delivery slot could become unavail
 To close the program simply close the browser and the terminal pop-up.
 
 ## Tips
--The program will exit if you haven't finished logging in within two minutes.
--You can minimize the browser and let it run on background. 
--Personally I would suggest you to run the program in the afternoon around 3 or 4 p.m. which is likely when a lot of delivery slot is released. 
+- The program will exit if you haven't finished logging in within two minutes.
+- You can minimize the browser and let it run on background. 
+- Personally I would suggest you to run the program in the afternoon around 3 or 4 p.m. which is likely when a lot of delivery slot is released. 
 
 ## How this works
 The clickable execution is created by pyinstaller. With the help of selenium library, this program automatically and constantly refreshes the checkout page every 30 seconds until it finds a delivery slot. This delivery slot is not presevered for you unless you quickly checkout and secure the delivery slot. 
