@@ -21,8 +21,8 @@ As of right now, it only supports Chrome browser. Support for Firefox will be up
 Note: Chrome version 81 is needed in order to assure the functionality of the program.
 
 ## Usage
-First and foremost, have your costco sameday delivery cart ready to go. 
-Important: this program only works for the [sameday delivery](https://sameday.costco.com/store/costco/storefront). This service should be under “Food, Household, Pet” department. Please check we are talking about the same service.
+First and foremost, have your costco sameday delivery cart ready to go.<br/>
+Important: this program only works for the [sameday delivery](https://sameday.costco.com/store/costco/storefront). This service should be under “Food, Household, Pet” department. Please check we are talking about the same service.<br/>
 To use this program just clone this repository and double-click costco.exe and it should start running in a few seconds. 
 ### Clone this repo
 Then clone this repo to your system by opening the terminal in where you want the files to be and typing:
@@ -30,16 +30,16 @@ Then clone this repo to your system by opening the terminal in where you want th
 git clone https://github.com/zzhou02/Costco-Sameday-Delievery-Slot-Finder.git
 ```
 ### Start the program
-Find the file that is costco.exe and double-click. 
-After the program started running, enter zip code and log in as usual (Your information is safe). 
-When a delivery slot is found, a beep will last for 5 seconds to notify you. So be sure to turn up volume.
-Act quickly after the slot is found since the delivery slot could become unavailable in any minute. 
+Find the file that is costco.exe and double-click.<br/>
+After the program started running, enter zip code and log in as usual (Your information is safe).<br/>
+When a delivery slot is found, a beep will last for 5 seconds to notify you. So be sure to turn up volume.<br/>
+Act quickly after the slot is found since the delivery slot could become unavailable in any minute.<br/> 
 To close the program simply close the browser and the terminal pop-up.
 
 ## Tips
-The program will exit if you haven't finished logging in within two minutes.
-You can minimize the browser and let it run on background. 
-Personally I would suggest you to run the program in the afternoon around 3 or 4 p.m. which is likely when a lot of delivery slot is released. 
+-The program will exit if you haven't finished logging in within two minutes.
+-You can minimize the browser and let it run on background. 
+-Personally I would suggest you to run the program in the afternoon around 3 or 4 p.m. which is likely when a lot of delivery slot is released. 
 
 ## How this works
 The clickable execution is created by pyinstaller. With the help of selenium library, this program automatically and constantly refreshes the checkout page every 30 seconds until it finds a delivery slot. This delivery slot is not presevered for you unless you quickly checkout and secure the delivery slot. 
