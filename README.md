@@ -16,8 +16,9 @@ The COVID-19 pandemic is evolving rapidly, and the trend of online grocery shopp
 The program doesn't steal your information at all. There is no ip or location detection, and your information will not be leaked because of this program. 
 
 ## Compatibility
-As the first draft, this program has only been tested on Windows 10 machine with Chrome browser. Theoretically this program should perform normally on MacOS and Linux, but I have not tested it due to the lack of the access to those systems. I would really appreciate if someone gives a feedback after testing on those systems. 
-As of right now, it only supports Chrome browser. Support for Firefox will be updated later.
+As the first draft, this program has only been tested on Windows 10 machine with Chrome browser. Theoretically this program should perform normally on MacOS and Linux, but I have not tested it due to the lack of the access to those systems. I would really appreciate if someone gives a feedback after testing on those systems.<br/>
+As of right now, it only supports Chrome browser. Support for Firefox will be updated later.<br/>
+Note: Chrome version 81 is needed in order to assure the functionality of the program.
 
 ## Usage
 First and foremost, have your costco sameday delivery cart ready to go. 

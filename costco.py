@@ -1,3 +1,4 @@
+from selenium import webdriver
 from bot import Bot
 import sys
 import winsound
@@ -25,7 +26,7 @@ def main():
             break
 
 
-robot = Bot("https://sameday.costco.com/store/checkout_v3")
+robot = Bot("https://sameday.costco.com/store/checkout_v3", webdriver.Chrome('./driver/chromedriver.exe'))
 # check the user has logged in
 try:
     robot.wait(after_login_delivery_time_xpath)
