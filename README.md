@@ -22,10 +22,7 @@ As of right now, it only supports Chrome browser. Support for Firefox will be up
 ## Usage
 First and foremost, have your costco sameday delivery cart ready to go. 
 Important: this program only works for the [sameday delivery](https://sameday.costco.com/store/costco/storefront). This service should be under “Food, Household, Pet” department. Please check we are talking about the same service.
-This program requires Chrome, Python, chromedriver, selenium and file in this repo to run. If any of these are installed, you may skip that part. 
-### Chromedriver
-First check your chrome version and download the [chromedriver](https://chromedriver.chromium.org/downloads) for your system. 
-Then add the directory that contains the chromedriver to PATH (system variable). Here is a [tutorial](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/) for Windows.
+To use this program just clone this repository and double-click costco.exe and it should start running in a few seconds. 
 ### Clone this repo
 Then clone this repo to your system by opening the terminal in where you want the files to be and typing:
 ```
@@ -33,7 +30,6 @@ git clone https://github.com/zzhou02/Costco-Sameday-Delievery-Slot-Finder.git
 ```
 ### Start the program
 Find the file that is costco.exe and double-click. 
-If you have configured the chromedriver correctly, the program should open a new browser for you within a few seconds. 
 After the program started running, enter zip code and log in as usual (Your information is safe). 
 When a delivery slot is found, a beep will last for 5 seconds to notify you. So be sure to turn up volume.
 Act quickly after the slot is found since the delivery slot could become unavailable in any minute. 
