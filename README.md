@@ -16,14 +16,15 @@ The COVID-19 pandemic is evolving rapidly, and the trend of online grocery shopp
 The program doesn't steal your information at all. There is no ip or location detection, and your information will not be leaked because of this program. 
 
 ## Compatibility
-As the first draft, this program has only been tested on Windows 10 machine with Chrome browser. Theoretically this program should perform normally on MacOS and Linux, but I have not tested it due to the lack of the access to those systems. I would really appreciate if someone gives a feedback after testing on those systems.<br/>
-As of right now, it only supports Chrome browser. Support for Firefox will be updated later.<br/>
-Note: Chrome version 81 is needed in order to assure the functionality of the program.
+The programs have only been tested on Windows 10 64 bits machine.<br/>
+MacOS and Linux are not supported yet, but will be updated soon.<br/>
+Support for Firefox is now added!!<br/>
+Note: Chrome version 81/Firefox version > 60 is needed in order to assure the functionality of the program.
 
 ## Usage
 First and foremost, have your costco sameday delivery cart ready to go.<br/>
 Important: this program only works for the [sameday delivery](https://sameday.costco.com/store/costco/storefront). This service should be under “Food, Household, Pet” department. Please check we are talking about the same service.<br/>
-To use this program just clone this repository and double-click costco.exe and it should start running in a few seconds. 
+To use this program just clone this repository and double-click costco.exe with your matching system and it should start running in a few seconds. 
 ### Clone this repo
 Then clone this repo to your system by opening the terminal in where you want the files to be and typing:
 ```
