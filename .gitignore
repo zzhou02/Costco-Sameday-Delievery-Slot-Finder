@@ -2,5 +2,6 @@ __pycache__/
 geckodriver.log
 debug.log
 costco.spec
+costco_firefox.spec
 build/
 dist/
