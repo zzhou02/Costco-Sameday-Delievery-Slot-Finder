@@ -10,7 +10,7 @@ import sys
 class Bot:
     def __init__(self, url):
         try:
-            self.driver = webdriver.Chrome()
+            self.driver = webdriver.Chrome('./driver/chromedriver.exe')
             self.url = url
             self.driver.maximize_window()
             self.driver.get(url)
