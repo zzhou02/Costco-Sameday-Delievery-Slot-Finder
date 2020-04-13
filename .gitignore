@@ -5,3 +5,6 @@ costco.spec
 costco_firefox.spec
 build/
 dist/
+costco_windows_chrome.zip
+costco_windows32_firefox.zip
+costco_windows64_firefox.zip
